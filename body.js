@@ -37,6 +37,7 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
 function showcreative() {
     var a = document.getElementById("multi-item-example1");
     var b = document.getElementById("multi-item-example2");
@@ -44,6 +45,7 @@ function showcreative() {
     var d = document.getElementById("multi-item-example4");
     var e = document.getElementById("multi-item-example5");
     var f = document.getElementById("multi-item-example6");
+    var hr = document.getElementById("nhansu");
 if (a.style.display === "none") {
     a.style.display = "block";
     b.style.display = "none";
@@ -51,6 +53,8 @@ if (a.style.display === "none") {
     d.style.display = "none";
     e.style.display = "none";
     f.style.display = "none";
+    hr.style.display = "none";
+
 } else {
     a.style.display = "none";
 }
@@ -62,6 +66,7 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
     if (b.style.display === "none") {
         a.style.display = "none";
         b.style.display = "block";
@@ -69,6 +74,8 @@ var f = document.getElementById("multi-item-example6");
         d.style.display = "none";
         e.style.display = "none";
         f.style.display = "none";
+    hr.style.display = "none";
+
     } else {
         b.style.display = "none";
     }
@@ -80,6 +87,8 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
+
     if (c.style.display === "none") {
         c.style.display = "block";
         a.style.display = "none";
@@ -87,6 +96,8 @@ var f = document.getElementById("multi-item-example6");
         d.style.display = "none";
         e.style.display = "none";
         f.style.display = "none";
+    hr.style.display = "none";
+
         
     } else {
         c.style.display = "none";
@@ -99,6 +110,8 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
+
     if (d.style.display === "none") {
         d.style.display = "block";
         a.style.display = "none";
@@ -106,6 +119,7 @@ var f = document.getElementById("multi-item-example6");
         c.style.display = "none";
         e.style.display = "none";
         f.style.display = "none";
+        hr.style.display = "none";
     } else {
         d.style.display = "none";
     }
@@ -117,6 +131,8 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
+
     if (e.style.display === "none") {
         e.style.display = "block";
         a.style.display = "none";
@@ -124,6 +140,7 @@ var f = document.getElementById("multi-item-example6");
         c.style.display = "none";
         d.style.display = "none";
         f.style.display = "none";
+        hr.style.display = "none";
     } else {
         e.style.display = "none";
     }
@@ -135,6 +152,8 @@ var c = document.getElementById("multi-item-example3");
 var d = document.getElementById("multi-item-example4");
 var e = document.getElementById("multi-item-example5");
 var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
+
     if (f.style.display === "none") {
         f.style.display = "block";
         a.style.display = "none";
@@ -142,9 +161,27 @@ var f = document.getElementById("multi-item-example6");
         c.style.display = "none";
         d.style.display = "none";
         e.style.display = "none";
+    hr.style.display = "none";
     } else {
         f.style.display = "none";
     }
+}
+function hide(){
+var a = document.getElementById("multi-item-example1");
+var b = document.getElementById("multi-item-example2");
+var c = document.getElementById("multi-item-example3");
+var d = document.getElementById("multi-item-example4");
+var e = document.getElementById("multi-item-example5");
+var f = document.getElementById("multi-item-example6");
+var hr = document.getElementById("nhansu");
+
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    hr.style.display ="block";
 }
 
 /* thông tin chi tiết */

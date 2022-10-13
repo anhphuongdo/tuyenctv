@@ -197,14 +197,13 @@
     top: 70.72%;
     bottom: 12.77%;
     color: rgba(7, 248, 251, 1);
+    z-index: 1078;
+    cursor: pointer;
 }
 .findind{
     width: auto;
     height: auto;
     margin:auto;
-}
-.pointer{
-    cursor: pointer;
 }
 /* slideHR */
 .slideHR{
@@ -219,6 +218,9 @@
     width: 7px;
     height: 7px;
     border-radius: 100%;
+}
+#nhansu{
+    display: block;
 }
 .img3{
     width: 326px;
@@ -282,7 +284,7 @@
 .recruit{
     margin: auto;
     height: auto;
-    width: auto;
+    width: 98%;
     /* mix-blend-mode: multiply; */
 }
 .title{
@@ -332,11 +334,11 @@
     padding-left: 25%
 }
 #section2{
-    padding-top: 52%;
+    padding-top: 51%;
     padding-left: 60%
 }
 #section3{
-    padding-top: 75%;
+    padding-top: 73%;
     padding-left: 25%
 }
 .btnexit{
