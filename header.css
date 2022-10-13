@@ -1,0 +1,108 @@
+html,body{
+    line-height:1.4;
+	font-size: 14px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(6, 32, 55, 1);
+	margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgba(6, 32, 55, 1) !important;
+    height: auto;
+}
+.logo{
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+}
+.nav-item{
+    padding-left: 59px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+	font-weight: lighter;
+}
+/* Tạo border gradient */
+.btnnop{
+    width: 192px;
+    font-family: 'Montserrat', sans-serif;
+    height: 59px;
+	position: relative;
+	background-clip: padding-box;
+	border: 2px solid transparent;
+	background-color: #191a28;
+    border-radius: 40px;
+    text-align: center;
+    padding: 12px;
+}
+.btnnop::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	margin: -2px;
+	background-image: linear-gradient(to right top, #2979ff, #07a787);
+	border-radius: inherit;
+}
+.btnnop:hover{
+    background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	z-index: 10;
+}
+navbar ul{
+	height: auto;
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li{
+	display: inline-block;
+    margin-top: 10px;
+	margin-right: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.action-menu a{
+	margin-left: 10px;
+}
+section{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+@media only screen and (max-width: 992px){
+	nav ul{
+		position: absolute;
+		top:115px;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+	nav ul li{
+		display: block;
+		visibility: hidden;
+		margin: 15px 50px 15px 0px;
+	}
+	nav ul li a{
+		color: #000000;
+	}
+
+}
+.charka{
+    font-family: 'Chakra Petch', sans-serif !important;
+	font-size: 48;
+}

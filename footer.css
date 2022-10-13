@@ -1,0 +1,65 @@
+.container-fluid1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ftr-background {
+    background-color: #000000;
+}
+
+.ftr-image {
+    width: 67px;
+    height: 56px;
+    border-radius: 40px;
+    float: left;
+}
+#ftr-image{
+    z-index: 11;
+}
+
+.ftr-name {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 15px;
+    margin-left: 40px;
+    float: left;
+}
+.ftr-col{
+    margin: 60px 50px 0px 120px;
+    text-align: center;
+}
+
+.ftr-title {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.ftr-li {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.up-icon {
+    height: 32px;
+    width: 32px;
+    fill: grey;
+}
+.up-icon:hover
+{
+    fill: #00CED1;
+}
+
+#ct-if {
+    list-style-type: none;
+}
+.right-side{
+    margin-top: 30px;
+    text-align: left;
+}
+.icon{
+    padding-left: 20px;
+}
+footer{
+    height: fit-content;
+}

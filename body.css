@@ -1,0 +1,444 @@
+.body-background {
+    background-color: rgba(7, 37, 89, 1)
+}
+
+.body-whitespace {
+    background-color:rgba(6, 32, 55, 1);
+    height: 70px;
+    z-index: 5;
+}
+
+.body-image  {
+    padding-top: 20px;
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+}
+.body-subimg{
+    position:absolute;
+    padding-top: 60px;
+    width: 350px;
+    height: 370px;
+    z-index: -1;
+}
+#body-image{
+    z-index: 6;
+}
+.body-title {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* tạo đường viền cho chữ */
+}
+.body-subtitle{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#txt1, #txt2{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.aboutus{
+    position: absolute;
+    width: 355px;
+    height: 131px;
+    top: 430px;
+    left: -550px;
+
+    background: #062037;
+    transform: rotate(45deg);
+}
+/* sứ mệnh và tầm nhìn */
+.smt{
+    background: rgba(7, 37, 89, 1);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 30px !important;
+    margin: auto;
+    width: auto;
+    height: fit-content;
+    font-size: 20px;
+}
+.decor{
+    background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
+    width: inherit;
+    height: 57px;
+    border-radius: 20px 20px 0px 0px;
+}
+.circle1{
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    background: rgba(255, 128, 128, 1);
+    float: left;
+    margin: 15px 15px 15px 15px;
+}
+.circle2{
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    background: rgba(255, 227, 128, 1);
+    float: left;
+    margin: 15px 15px 15px 0px;
+}
+.circle3{
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    background: rgba(128, 255, 156, 1);
+    float: left;
+    margin: 15px 0px 0px 0px;
+}
+.smt-img-top{
+    margin: 10px 0px 0px 40px;
+}
+.smt-title{
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+}
+/* thành viên TDC */
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.slide{
+    width: 73%;
+    height: auto;
+    z-index: 11;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.slide ol li{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+#img1{
+    position: absolute;
+    width: 98%;
+    height: 550px;
+    z-index: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+/* thành viên */
+.member{
+    margin-top: 50px !important;
+    margin: auto;
+    border-radius: 50px;
+    width: 276px;
+    height: 276px;
+    margin-left: 65px;
+    text-align: center;
+    z-index: 11;
+}
+.pos{
+    margin-top: 15px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+.part{
+    margin-left: auto;
+    margin-right: auto;
+}
+#part1, #part2{
+    width: 45%;
+    float: left;
+    text-align: center;
+    height: auto;
+}
+/* TDC Signal */
+.signal{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+/* Tìm kiếm cộng sự */
+.findind{
+    position: absolute;
+    z-index: 11;
+}
+.bgfind{
+    left: -500px;
+    position: absolute;
+    height: 1750px;
+    mix-blend-mode: multiply;
+}
+.team{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 11;
+}
+.outline{
+    width: 450px;
+    height: 321px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.img2{
+    position: absolute;
+    width: inherit;
+    height: 300px;
+}
+.finding .material-symbols-outlined {
+    width: 47px;
+    height: 30px;
+    position: absolute;
+    left: 70.56%;
+    right: 8.67%;
+    top: 70.72%;
+    bottom: 12.77%;
+    color: rgba(7, 248, 251, 1);
+}
+.findind{
+    width: auto;
+    height: auto;
+    margin:auto;
+}
+.pointer{
+    cursor: pointer;
+}
+/* slideHR */
+.slideHR{
+    width: 1117px;
+    background: rgba(7, 37, 89, 1);
+    height: 426px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.slideHR ol li{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+.img3{
+    width: 326px;
+    height: inherit;
+}
+.prev{
+    position: absolute;
+    margin: -150px 0px 0px 35%;
+}
+.next{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 43%;
+}
+#icon{
+    color: white;
+    font-size: 70px;
+}
+.content{
+    background: inherit;
+    color: white;
+    font-size: 40px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.detail1{
+    border: solid 5px black;
+    background-image: url(image/background2.png);
+    border-radius: 40px;
+    width: 939px;
+    height: 500px;
+    margin: auto;
+}
+.subli{
+    list-style: none;
+    padding-left: 100px !important;
+}
+#multi-item-example1{
+    display: none;
+}
+#multi-item-example2{
+    display: none;
+}
+#multi-item-example3{
+    display: none;
+}
+#multi-item-example4{
+    display: none;
+}
+#multi-item-example5{
+    display: none;
+}
+#multi-item-example6{
+    display: none;
+}
+/* Timeline */
+
+.recruit{
+    margin-top: 30px !important;
+    margin: auto;
+    height: auto;
+    width: auto;
+    /* mix-blend-mode: multiply; */
+}
+.title{
+    background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
+    width: auto;
+    height: 57px;
+    border-radius: 40px 40px 0px 0px;
+}
+#dt1{
+    display: none;
+    border: solid 5px black;
+    background-image: url(image/background2.png);
+    border-radius: 40px;
+    width: 939px;
+    margin: auto;
+}
+#dt2{
+    display: none;
+    border: solid 5px black;
+    background-image: url(image/background2.png);
+    border-radius: 40px;
+    width: 939px;
+    margin: auto;
+}
+#dt3{
+    display: none;
+    border: solid 5px black;
+    background-image: url(image/background2.png);
+    border-radius: 40px;
+    width: 939px;
+    margin: auto;
+}
+.btnpop:hover{
+    cursor: pointer;
+}
+.btnpop{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+}
+#section1{
+    padding-top: 34%;
+    padding-left: 25%
+}
+#section2{
+    padding-top: 55%;
+    padding-left: 60%
+}
+#section3{
+    padding-top: 77%;
+    padding-left: 25%
+}
+.btnexit{
+    width: 63px;
+    height: 63px;
+    float: left;
+    margin: 15px 15px 0px 30px;
+    color: black !important;
+}
+.btnexit:hover{
+    cursor: pointer;
+}
+.vong{
+    font-size: 25px;
+    float: left;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.chitiet{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.in4{
+    margin-left: 5%;
+    font-weight: bold;
+}
+.carousel-item li{
+    padding-left: 50px;
+}
+.detail_body{
+    margin: auto;
+}
+.inside{
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 0% 0% 5% 5%;
+    width: 825px;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inside li{
+    margin-left: 10px;
+    size: 2px;
+}
+
+
+/* Nộp CV */
+.submit{
+    width: 192px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    height: 59px;
+    border: solid 2px blue;
+    background: rgba(4,18,60,1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    margin-bottom: 177px !important;
+}
+.submit:hover{
+    background: #f47321;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 480px){
+    #countdown{
+        width: 250px;
+        height: 163px;
+    }
+        #countdown .labels li {
+        width: auto;
+        font: bold 15px 'Droid Sans', Arial, sans-serif;
+        color: #f47321;
+        text-shadow: 1px 1px 0px #000;
+        text-align: center;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    #countdown .labels{
+        height:50px;
+    }
+    #countdown #tiles > span{
+        width: 29px;
+        max-width: 29px;
+        font: bold 19px 'Droid Sans', Arial, sans-serif;
+        
+    }
+    .smt{
+        width: auto;
+        font-size: auto;
+    }
+    .slide{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #img1{
+        width: 100%;
+        height: auto;
+    }
+    .slide ol li{
+        height: auto;
+        z-index: 18;
+    }
+    .slide #btn{
+        visibility: hidden
+    }
+    .aboutus{
+        visibility: hidden;
+    }
+}
