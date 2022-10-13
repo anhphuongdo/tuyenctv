@@ -414,42 +414,45 @@
                             <span class="material-symbols-outlined" id="icon">arrow_forward</span>
                         </a>
                     </div>
-                </div>           
+                </div>  
             </section>
             <section>
+                <img class="signal" src="image/tdc stories.png" alt="TDC Signal">
+                <div id="clmhr"></div>        
+                <br>
                 <div id="nhansu">
-                    <img class="signal" src="image/tdc stories.png" alt="TDC Signal">
                     <div class="row finding">
                         <div class="col-12 heading charka">Tìm kiếm cộng sự</div>
+                        <br>
                         <div class="col-12 d-flex">
                             <img class="team" src="image/teamDcoms.png"/>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex" onclick ="showcreative()">
-                            <a href="#multi-item-example1">
-                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                        <div class = "col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex" >
+                            <a href="#clmhr">
+                            <span class="material-symbols-outlined" onclick ="showcreative()">arrow_right_alt</span>
                             </a>
                             <img class="outline" src="image/outline1.png" alt="Double click">
                             <img class="img2" src="image/creative.png"/>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" onclick ="showcontent()">
+                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex">
                             <img class="outline" src="image/outline2.png">
                             <img class="img2" src="image/content.png">
-                            <a href="#multi-item-example2">
-                                <span class="material-symbols-outlined">arrow_right_alt</span>
+                            <a href="#clmhr">
+                                <span class="material-symbols-outlined" onclick ="showcontent()">arrow_right_alt</span>
                             </a>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex"  onclick ="showmedia()">
+                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex"  >
                             <img class="outline" src="image/outline3.png">
                             <img class="img2" src="image/media3.png">
-                            <a href="#multi-item-example3">
-                                <span class="material-symbols-outlined">arrow_right_alt</span>
+                            <a href="#clmhr">
+                                <span class="material-symbols-outlined" onclick ="showmedia()" id="arrow">arrow_right_alt</span>
                             </a>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" onclick ="showtalent()">
+                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" >
                             <img class="outline" src="image/outline4.png">
                             <img class="img2" src="image/talent.png">
-                            <a href="#multi-item-example4">
-                                <span class="material-symbols-outlined">arrow_right_alt</span>
+                            <a href="#clmhr">
+                                <span class="material-symbols-outlined" onclick ="showtalent()">arrow_right_alt</span>
                             </a>
                         </div>
                         <div class="col-12 d-flex">
@@ -460,26 +463,26 @@
                                 <img class="team" src="image/teamHR.png"/>
                             </div>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" onclick ="showtech()">
+                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" >
                             <img class="pointer outline" src="image/outline5.png">
                             <img class="img2" src="image/tech.png">
-                            <a href="#multi-item-example5">
-                                <span class="material-symbols-outlined">arrow_right_alt</span>
+                            <a href="#clmhr">
+                                <span class="material-symbols-outlined" onclick ="showtech()">arrow_right_alt</span>
                             </a>
                         </div>
-                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex"onclick="showhr()">
+                        <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex">
                             <img class="pointer outline" src="image/outline6.png">
                             <img class="img2" src="image/hr.png">
-                            <a href="#multi-item-example6">
-                                <span class="material-symbols-outlined">arrow_right_alt</span>
+                            <a href="#clmhr">
+                                <span class="material-symbols-outlined" onclick="showhr()">arrow_right_alt</span>
                             </a>
                         </div>
                         <img class="bgfind" src="image/dl.beatsnoop 1.png"/>
                     </div>
                 </div>
 
-                <!-- creative -->
                 <div id="multiitems">
+                    <!-- creative -->
                     <div id="multi-item-example1" class="carousel slideRC carousel-multi-item" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
@@ -491,7 +494,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Creative</p>
                                         </div>
                                         <div class="detail_body">
@@ -510,7 +513,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Creative</p>
                                             </div>
                                             <div class="detail_body">
@@ -536,7 +539,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Creative</p>
                                             </div>
                                             <div class="detail_body">
@@ -578,7 +581,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Content</p>
                                         </div>
                                         <div class="detail_body">
@@ -597,7 +600,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Content</p>
                                             </div>
                                             <div class="detail_body">
@@ -622,7 +625,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Content</p>
                                             </div>
                                             <div class="detail_body">
@@ -663,7 +666,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Media</p>
                                         </div>
                                         <div class="detail_body">
@@ -687,7 +690,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Media</p>
                                             </div>
                                             <div class="detail_body">
@@ -714,7 +717,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Media</p>
                                             </div>
                                             <div class="detail_body">
@@ -757,7 +760,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Talent</p>
                                         </div>
                                         <div class="detail_body">
@@ -776,7 +779,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Talent</p>
                                             </div>
                                             <div class="detail_body">
@@ -803,7 +806,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Talent</p>
                                             </div>
                                             <div class="detail_body">
@@ -846,7 +849,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Tech</p>
                                         </div>
                                         <div class="detail_body">
@@ -869,7 +872,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
                                             </div>
                                             <div class="detail_body">
@@ -890,7 +893,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
                                             </div>
                                             <div class="detail_body">
@@ -929,7 +932,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                            <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team HR</p>
                                         </div>
                                         <div class="detail_body">
@@ -950,7 +953,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
                                             </div>
                                             <div class="detail_body">
@@ -972,7 +975,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide()"><span class="material-symbols-outlined">cancel</span></div>
+                                                <div class = "btnexit" onclick="hide()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
                                             </div>
                                             <div class="detail_body">
@@ -1014,13 +1017,13 @@
                     <div class="col-lg-12">
                         <p class="btnpop" id="section1" onclick="Detail1()"><a id="white" href="#dt">1: Định vị</a></p>
                     </div>
-                    <img class="recruit d-block" src="image/detailofrecruitment.png">  
+                    <img class="recruit d-block" src="image/detailofrecruitment.png">
                 </div>
-                <div id="dt">
+                <div id="dt"></div>  
                     <div class ="row" id="dt1">
                         <div class="detail">
                             <div class="title">
-                                <div class = "btnexit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></div>
+                                <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
                                 <p class="charka vong">Vòng 1: Định vị</p>
                             </div>
                             <div class="detail_body">
@@ -1035,7 +1038,7 @@
                     <div class="row" id="dt2">
                         <div class="detail2" >
                             <div class="title">
-                                <div class = "btnexit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></div>
+                                <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
                                 <p class="charka vong">Vòng 2: Chuyển đổi</p>
                             </div>
                             <div class="detail_body">
@@ -1050,7 +1053,7 @@
                     <div class="row" id="dt3">
                         <div class="detail3" >
                             <div class="title">
-                                <div class = "btnexit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></div>
+                                <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
                                 <p class="charka vong">Vòng 3: Kết nối</p>
                             </div>
                             <div class="detail_body">
@@ -1061,8 +1064,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>    
+                    </div>   
             </section>
             <!-- countdown -->   
             <section id="timer">
