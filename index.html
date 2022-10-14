@@ -6,11 +6,13 @@
       <link rel="stylesheet" href="body.css">
       <link rel="stylesheet" href="footer.css">
       <link rel="stylesheet" href="countdown.css">
+      <link rel="stylesheet" href="timeline.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
       <script src="body.js"></script>
+      <script src="timeline.js" defer></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -29,13 +31,13 @@
                     </nav>
                     <div class="action-menu">
                         <div class="btnnop">
-                            <a href="#countdown" title="Nộp CV ngay!" style="color: white; font-size: 20px">Nộp CV</a>
+                            <a href="#countdown" title="Ứng tuyển ngay!" style="color: white; font-size: 20px">Ứng tuyển</a>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="banner">
-                <img class="w-100 d-block" alt="Hình ảnh minh họa" src="image/header.png"/>
+                <img class="w-100 d-block" alt="Hình ảnh minh họa" src="image/BND tuyển ctv bìa.png"/>
             </div>
             <section id="aboutus">
                 <!-- Giới thiệu -->
@@ -89,6 +91,7 @@
                             <div class="smt-body">
                                 <h4 class="smt-title">Sứ mệnh</h4>
                                 <p class="smt-title">Ban Công nghệ & Truyền thông số UEH ra đời nhằm đảm bảo và thúc đẩy quá trình ứng dụng công nghệ, chuyển đổi số vào trong các hoạt động, đặc biệt là các hoạt động truyền thông của Đoàn - Hội UEH.</p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -103,6 +106,7 @@
                             <div class="smt-body">
                                 <h4 class="smt-title">Tầm nhìn</h4>
                                 <p class="smt-title">Ban Công nghệ & Truyền thông số UEH, luôn chủ động tạo nên những trải nghiệm tuyệt vời, đầy mới lạ về ứng dụng công nghệ. Khẳng định vai trò tiên phong khi bắt kịp mọi xu hướng công nghệ và giúp các UEH-ers có thể phát triển các kỹ năng 4.0.</p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -122,16 +126,16 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (8).jpg" alt="Second slide">
+                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (8).jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (2).jpg" alt="Third slide">
+                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (2).jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (6).jpg" alt="Fourth slide">
+                                <img class="w-100 d-block" src="image/Slide ảnh/nngày hội (2 of 10) (6).jpg" alt="Third slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="w-100 d-block" src="image/Slide ảnh/ngày hội (5 of 11).jpg" alt="Fifth slide">
+                                <img class="w-100 d-block" src="image/Slide ảnh/ngày hội (5 of 11).jpg" alt="Fourth slide">
                             </div>
                         </div>
                         <a id="btn" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -175,7 +179,7 @@
                 </div> 
             </section>     
             <!-- slide nhân sự -->
-            <section>
+            <!-- <section>
                 <div class="w-100 carouHR">
                     <div id="multi-item-example" class="carousel slideHR carousel-multi-item" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -201,7 +205,7 @@
                             <div class="carousel-item active">
                                 <div class = "row">
                                     <div class = "col-4">
-                                        <img class="" src = "image/Rectangle 2569.png" alt=""/>
+                                        <img class="img0" src = "image/Rectangle 2569.png" alt=""/>
                                     </div>
                                     <div class = "col-8 content">
                                         <p class = "special">"</p>
@@ -415,7 +419,7 @@
                         </a>
                     </div>
                 </div>  
-            </section>
+            </section> -->
             <section>
                 <img class="signal" src="image/tdc stories.png" alt="TDC Signal">
                 <div id="clmhr"></div>        
@@ -425,7 +429,7 @@
                         <div class="col-12 heading charka">Tìm kiếm cộng sự</div>
                         <br>
                         <div class="col-12 d-flex">
-                            <img class="team" src="image/teamDcoms.png"/>
+                            <div class="team1">D-Coms Department</div>
                         </div>
                         <div class = "col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex" >
                             <a href="#clmhr">
@@ -457,10 +461,10 @@
                         </div>
                         <div class="col-12 d-flex">
                             <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex">
-                                <img class="team" src="image/teamTech.png"/>
+                                <div class="team">Tech Department</div>
                             </div>
                             <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex">
-                                <img class="team" src="image/teamHR.png"/>
+                                <div class="team">HR Department</div>
                             </div>
                         </div>
                         <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex" >
@@ -1006,9 +1010,27 @@
                     </div>
                 </div>
             </section>
-            <section id="recruit">
-                <div class ="row recruitment">
-                    <div class="col-lg-12">
+            <section>
+                <div class="timeline">
+                    <div class="timeline-row">
+                        <div class="timeline-time">Locator</div>
+                        <div class="timeline-content" id="chang1"><img class="" src="image/Frame0.png"></div>
+                    </div>
+            
+                    <div class="timeline-row">
+                        <div class="timeline-time1">Conversion</div>
+                        <div class="timeline-content" id="chang2"><img class="" src="image/Frame.png"></div>
+                    </div>
+            
+                    <div class="timeline-row">
+                        <div class="timeline-time">Connection</div>
+                        <div class="timeline-content" id="chang3"><img class="" src="image/Frame1.png"></div>
+                    </div>                    
+                </div>
+            </section>
+                            
+            <section id="recruit">          
+                    <!-- <div class="col-lg-12">
                         <p class="btnpop" id="section2" onclick="Detail2()"><a id="white" href="#dt2">2: Chuyển đổi</a></p>
                     </div>
                     <div class="col-lg-12">
@@ -1016,10 +1038,8 @@
                     </div>
                     <div class="col-lg-12">
                         <p class="btnpop" id="section1" onclick="Detail1()"><a id="white" href="#dt1">1: Định vị</a></p>
-                    </div>
-                    <img class="recruit d-block" src="image/detailofrecruitment.png">
-                </div> 
-                    <div class ="row" id="dt1">
+                    </div> -->
+                <div class ="row" id="dt1">
                     <div class="detail">
                         <div class="title">
                             <div class = "btnexit"><span class="material-symbols-outlined" onclick="hideDetail()"><a href="#recruit">cancel</a></span></div>
@@ -1028,46 +1048,45 @@
                         <div class="detail_body">
                             <h4 class="chitiet charka"> Chi tiết</h4>
                             <div class="inside">
-                                <li class="in4">Các bạn nhấp vào nút “Nộp CV” phía bên dưới để trả lời các câu hỏi về đợt tuyển cộng sự của TDC</li>
+                                <li class="in4">Các bạn nhấp vào nút “Ứng tuyển” phía bên dưới để trả lời các câu hỏi về đợt tuyển cộng sự của TDC</li>
                                 <li>Thời gian : x/10/2022 - x/10/2022</li>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    <div class="row" id="dt2">
-                        <div class="detail2" >
-                            <div class="title">
-                                <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
-                                <p class="charka vong">Vòng 2: Chuyển đổi</p>
-                            </div>
-                            <div class="detail_body">
-                                <h4 class="chitiet charka"> Chi tiết</h4>
-                                <div class="inside">
-                                    <li class="in4">Các cá nhân xuất sắc nhất từ vòng 1 sẽ có cơ hội bước tiếp tham gia vòng Teamwork. </li>
-                                    <li>Thời gian : x/10/2022 - x/10/2022</li>
-                                </div>
+                </div>
+                <div class="row" id="dt2">
+                    <div class="detail2" >
+                        <div class="title">
+                            <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
+                            <p class="charka vong">Vòng 2: Chuyển đổi</p>
+                        </div>
+                        <div class="detail_body">
+                            <h4 class="chitiet charka"> Chi tiết</h4>
+                            <div class="inside">
+                                <li class="in4">Các cá nhân xuất sắc nhất từ vòng 1 sẽ có cơ hội bước tiếp tham gia vòng Teamwork. </li>
+                                <li>Thời gian : x/10/2022 - x/10/2022</li>
                             </div>
                         </div>
                     </div>
-                    <div class="row" id="dt3">
-                        <div class="detail3" >
-                            <div class="title">
-                                <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
-                                <p class="charka vong">Vòng 3: Kết nối</p>
-                            </div>
-                            <div class="detail_body">
-                                <h4 class="chitiet charka"> Chi tiết</h4>
-                                <div class="inside">
-                                    <li class="in4">Sau khi hoàn thành vòng 2, các bạn sẽ có cơ hội tham gia phỏng vấn cùng với các thành viên trong ban TDC.</li>
-                                    <li>Thời gian : x/10/2022 - x/10/2022</li>
-                                </div>
+                </div>
+                <div class="row" id="dt3">
+                    <div class="detail3" >
+                        <div class="title">
+                            <div class = "btnexit"><a href="#recruit"><span class="material-symbols-outlined" onclick="hideDetail()">cancel</span></a></div>
+                            <p class="charka vong">Vòng 3: Kết nối</p>
+                        </div>
+                        <div class="detail_body">
+                            <h4 class="chitiet charka"> Chi tiết</h4>
+                            <div class="inside">
+                                <li class="in4">Sau khi hoàn thành vòng 2, các bạn sẽ có cơ hội tham gia phỏng vấn cùng với các thành viên trong ban TDC.</li>
+                                <li>Thời gian : x/10/2022 - x/10/2022</li>
                             </div>
                         </div>
-                    </div>   
+                    </div>
+                </div>   
             </section>
             <!-- countdown -->   
             <section id="timer">
-                <img class="countdown" src="image/time.png"/>         
                 <div id="countdown">
                     <div id='tiles'></div>
                     <div class="labels" >
@@ -1076,7 +1095,8 @@
                         <li id="text3">Phút</li>
                     </div>
                 </div>
-            <button class="submit d-flex justify-content-center" type="submit" href="#" title="Nộp CV ngay!">Nộp CV</button>
+                <img class="countdown" src="image/time.png"/>         
+            <button class="submit d-flex justify-content-center" type="submit" href="https://g0q212wlh21.typeform.com/to/pY9tqAG8" title="Ứng tuyển ngay!">Ứng tuyển</button>
             </section>
             <br>
             <!-- Timeline -->
@@ -1138,7 +1158,7 @@
     <script lang="javascript">
         $("#id1").height($("#id0").height());
         
-        var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
+        var target_date = new Date().getTime() + (1000*3600*24*7 + 1000*3600*4); // set the countdown date
         var days, hours, minutes; // variables for time units
 
         var countdown = document.getElementById("tiles"); // get tag element

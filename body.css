@@ -168,13 +168,40 @@
 .bgfind{
     left: -500px;
     position: absolute;
-    height: 1750px;
+    height: 1600px;
     mix-blend-mode: multiply;
 }
-.team{
+.team1{
+    border-radius: 0px 40px 0px 40px;
+    text-align: center;
+    padding-top: 1%;
+    width: auto;
+    height: 90px;
+    font-size: 36px;
+    font-weight: medium;
+    background: rgba(255, 227, 128, 1);
+    margin-top: 45px;
+    margin-bottom: 26px;
     margin-left: auto;
     margin-right: auto;
     z-index: 11;
+    color:#000;
+}
+.team{
+    border-radius: 0px 40px 0px 40px;
+    text-align: center;
+    padding-top: 3%;
+    width: auto;
+    height: 90px;
+    font-size: 36px;
+    font-weight: medium;
+    background: rgba(255, 227, 128, 1);
+    margin-top: 45px;
+    margin-bottom: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 11;
+    color:#000;
 }
 .outline{
     width: 450px;
@@ -197,7 +224,7 @@
     top: 70.72%;
     bottom: 12.77%;
     color: rgba(7, 248, 251, 1);
-    z-index: 1078;
+    z-index: 1000;
     cursor: pointer;
 }
 .findind{
@@ -206,6 +233,7 @@
     margin:auto;
 }
 /* slideHR */
+
 .slideHR{
     width: 1117px;
     background: rgba(7, 37, 89, 1);
@@ -281,12 +309,6 @@
 }
 /* Timeline */
 
-.recruit{
-    margin: auto;
-    height: auto;
-    width: 98%;
-    /* mix-blend-mode: multiply; */
-}
 .title{
     background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
     width: auto;

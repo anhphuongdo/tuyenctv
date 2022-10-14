@@ -3,13 +3,13 @@
     margin-top: 30px !important;
     text-align: center;
     z-index: 1;
+    padding: auto;
 }
 #countdown{
+    width: 98%;
     position: absolute;
-    margin-top: -500px !important;
-    width: 1240.56px;
-    height: 400px;
     text-align: center;
+    padding-top: 20%;
     margin: auto;
 }
 
@@ -19,14 +19,14 @@
     z-index: 1;
     text-align: center;
     margin-top: 5%;
-    
+    padding: auto;
 }
 
 #countdown .labels{
-    width: inherit;
-    height: 25px;
+    font: bold 15px;
+    position: relative;
+    z-index: 1;
     text-align: center;
-    position: absolute;
 }
 
 #countdown .labels li{
