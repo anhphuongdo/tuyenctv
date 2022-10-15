@@ -87,10 +87,6 @@ nav ul li:hover{
 .action-menu a{
 	margin-left: 10px;
 }
-section{
-	margin-top: 100px;
-	margin-bottom: 40px;
-}
 @media only screen and (max-width: 992px){
 	nav ul{
 		position: absolute;
@@ -107,6 +103,9 @@ section{
 	}
 	nav ul li a{
 		color: #000000;
+	}
+	.container-fluid{
+		width: 100%;
 	}
 
 }
