@@ -6,6 +6,9 @@ html,body{
 	margin: 0px;
     padding: 0px;
 }
+.fixed-top{
+	width: 100%;
+}
 .container-fluid{
     width: 100%;
     color: white;

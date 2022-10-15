@@ -144,7 +144,7 @@
     font-size: 30px;
 }
 .part{
-    margin-top: 30px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -200px;
@@ -496,9 +496,9 @@
         display: none;
     }
     .caption-text1{
-        display: none;
+        font-size: 10px;
     }
     .caption-text{
-        display: none;
+        font-size: 10px;
     }
 }
