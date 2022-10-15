@@ -31,18 +31,22 @@
 
 #countdown .labels li{
     position: relative;
-    width: 30%;
+    width: 20%;
     font: bold 15px 'Chakra Petch', sans-serif;
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
 }
-span{
+.labels span{
     border: none !important;
+    font-size: 199px;
 }
 @media only screen and (max-width: 992px){
+#timer{
+    display: none;
+}
 .submit{
-    margin-top: -300px;
+    margin-top: 5%;
 }
 }
 

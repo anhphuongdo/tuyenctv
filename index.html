@@ -12,6 +12,7 @@
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
       <script src="body.js"></script>
+      <script src="countdown.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -30,7 +31,7 @@
                     </nav>
                     <div class="action-menu">
                         <div class="btnnop">
-                            <a href="#countdown" title="Ứng tuyển ngay!" style="color: white; font-size: 20px">Ứng tuyển</a>
+                            <a href="#timeline" title="Ứng tuyển ngay!" style="color: white; font-size: 20px">Ứng tuyển</a>
                         </div>
                     </div>
                 </div>
@@ -426,6 +427,8 @@
             </section> -->
             <section>
                 <img class="signal" src="image/tdc stories.png" alt="TDC Signal">
+            </section>
+            <section>
                 <div id="clmhr"></div>
                 <div id="arrow"></div>        
                 <br>
@@ -501,7 +504,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class=" w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide1()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Creative</p>
@@ -520,7 +523,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide1()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Creative</p>
@@ -546,7 +549,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide1()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Creative</p>
@@ -588,7 +591,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide2()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Content</p>
@@ -607,7 +610,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide2()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Content</p>
@@ -632,7 +635,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide2()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Content</p>
@@ -673,7 +676,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide3()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Media</p>
@@ -697,7 +700,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide3()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Media</p>
@@ -724,7 +727,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide3()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Media</p>
@@ -767,7 +770,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide4()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Dcoms - Talent</p>
@@ -786,7 +789,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide4()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Talent</p>
@@ -813,7 +816,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide4()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Dcoms - Talent</p>
@@ -856,7 +859,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Tech</p>
@@ -879,7 +882,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
@@ -900,7 +903,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
@@ -939,7 +942,7 @@
                         <div class="carousel-inner" role ="listbox">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="w-100 d-block detail1">
+                                    <div class="detail1">
                                         <div class="title">
                                             <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team HR</p>
@@ -960,7 +963,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
@@ -982,7 +985,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col" >
-                                        <div class="w-100 d-block detail1">
+                                        <div class="detail1">
                                             <div class="title">
                                                 <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
@@ -1015,7 +1018,7 @@
                     </div>
                 </div>
             </section>
-            <section class="timeline">
+            <section id="timeline">
                 <div class="charka timeline-in4">Thông tin chi tiết</div>
                 <div class="timeline">
                     <div class="timeline-row">
@@ -1082,33 +1085,31 @@
                     </div>   
                 </div>                 
             </section>
-                            
-            <section id="recruit">          
-                    <!-- <div class="col-lg-12">
-                        <p class="btnpop" id="section2" onclick="Detail2()"><a id="white" href="#dt2">2: Chuyển đổi</a></p>
-                    </div>
-                    <div class="col-lg-12">
-                        <p class="btnpop" id="section3" onclick="Detail3()"><a id="white" href="#dt3">3: Kết nối</a></p>
-                    </div>
-                    <div class="col-lg-12">
-                        <p class="btnpop" id="section1" onclick="Detail1()"><a id="white" href="#dt1">1: Định vị</a></p>
-                    </div> -->
-
-                   
-            </section>
             <!-- countdown -->   
             <section id="timer">
                 <div id="countdown">
                     <div id='tiles'></div>
                     <div class="labels" >
-                        <li id="text1">Ngày</li>
-                        <li id="text2">Giờ</li>
-                        <li id="text3">Phút</li>
+                        <div countdown="" data-date="October 21 2022 23:59:00">
+                            <div>
+                                <span data-days="">00</span>
+                                <span>:</span>
+                                <span data-hours="">00</span>
+                                <span>:</span>
+                                <span data-minutes="">00</span>
+                                <span>:</span>
+                                <span data-seconds="">00</span>
+                            </div>
+                            <li id="text1">Ngày</li>
+                            <li id="text2">Giờ</li>
+                            <li id="text3">Phút</li>
+                            <li id="text4">Giây</li>
+                        </div>
                     </div>
                 </div>
                 <img class="countdown" src="image/time.png"/>         
-            <a href="https://g0q212wlh21.typeform.com/to/pY9tqAG8"><div class="submit d-flex justify-content-center" title="Ứng tuyển ngay!">Ứng tuyển</div></a>
             </section>
+            <a href="https://g0q212wlh21.typeform.com/to/pY9tqAG8"><div class="submit d-flex justify-content-center" title="Ứng tuyển ngay!">Ứng tuyển</div></a>
             <br>
             <!-- Timeline -->
         </div>
@@ -1168,32 +1169,6 @@
     <!-- Độ cao của 2 thẻ bằng nhau -->
     <script lang="javascript">
         $("#id1").height($("#id0").height());
-        
-        var target_date = new Date().getTime() + (1000*3600*24*6 + 1000*3600*3 + 1000*60*15); // set the countdown date
-        var days, hours, minutes; // variables for time units
-
-        var countdown = document.getElementById("tiles"); // get tag element
-
-        getCountdown();
-
-        setInterval(function () { getCountdown(); }, 1000);
-
-        function getCountdown(){
-
-            // find the amount of "seconds" between now and target
-            var current_date = new Date().getTime();
-            var seconds_left = (target_date - current_date) / 1000;
-
-            days = pad( parseInt(seconds_left / 86400) );
-            seconds_left = seconds_left % 86400;
-                
-            hours = pad( parseInt(seconds_left / 3600) );
-            seconds_left = seconds_left % 3600;
-                
-            minutes = pad( parseInt(seconds_left / 60) );
-            // format countdown string + set tag value
-            countdown.innerHTML = "<span>" + days + "</span> : <span>" + hours + "</span> : <span>" + minutes + "</span>"; 
-        }
 
         function pad(n) {
             return (n < 10 ? '0' : '') + n;

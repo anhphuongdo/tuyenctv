@@ -173,7 +173,6 @@
 /* TDC Signal */
 .signal{
     width: 100%;
-    height: fit-content;
 }
 /* Tìm kiếm cộng sự */
 .findind{
@@ -500,5 +499,14 @@
     }
     .caption-text{
         font-size: 10px;
+    }
+    .signal{
+        margin-top: 25%;
+    }
+    .part{
+        margin-top: 25%;
+    }
+    .ftr-image{
+        display: none;
     }
 }
