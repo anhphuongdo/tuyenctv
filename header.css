@@ -22,6 +22,10 @@ html,body{
     border-radius: 50%;
     width: 74px;
     height: 74px;
+	transition: ease-out;
+}
+.logo:hover{
+    transform: scale(1.2);
 }
 .nav-item{
     padding-left: 59px;
@@ -75,6 +79,10 @@ nav ul li{
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	transition: ease-out;
+}
+nav ul li:hover{
+    transform: scale(1.2);
 }
 .action-menu a{
 	margin-left: 10px;
