@@ -4,23 +4,21 @@
 
 .body-whitespace {
     background-color:rgba(6, 32, 55, 1);
-    height: 70px;
+    height: 120px;
     z-index: 5;
-}
-.banner{
-    margin-top: -20px;
 }
 
 .body-image  {
     width: 350px;
     height: 350px;
     z-index: 1;
+    margin-top: 50px;
 }
 .body-subimg{
     position:absolute;
-    padding-top: 40px;
+    padding-top: 100px;
     width: 350px;
-    height: 370px;
+    height: 400px;
     z-index: -1;
 }
 #body-image{
@@ -45,8 +43,8 @@
     position: absolute;
     width: 355px;
     height: 131px;
-    top: 400px;
-    left: -600px;
+    top: 450px;
+    left: -650px;
 
     background: #062037;
     transform: rotate(45deg);
