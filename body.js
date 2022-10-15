@@ -106,22 +106,44 @@ var hr = document.getElementById("nhansu");
         f.style.display = "none";
     }
 }
-function hide(){
+function hide1(){
 var a = document.getElementById("multi-item-example1");
-var b = document.getElementById("multi-item-example2");
-var c = document.getElementById("multi-item-example3");
-var d = document.getElementById("multi-item-example4");
-var e = document.getElementById("multi-item-example5");
-var f = document.getElementById("multi-item-example6");
 var hr = document.getElementById("nhansu");
 
     a.style.display = "none";
-    b.style.display = "none";
-    c.style.display = "none";
-    d.style.display = "none";
-    e.style.display = "none";
-    f.style.display = "none";
     hr.style.display ="block";
+}
+function hide2(){
+    var b = document.getElementById("multi-item-example2");
+    var hr = document.getElementById("nhansu");
+    
+        b.style.display = "none";
+        hr.style.display ="block";
+}
+function hide3(){
+    var c = document.getElementById("multi-item-example3");
+    var hr = document.getElementById("nhansu");
+        c.style.display = "none";
+        hr.style.display ="block";
+}
+function hide4(){
+    var d = document.getElementById("multi-item-example4");
+    var hr = document.getElementById("nhansu");
+        d.style.display = "none";
+        hr.style.display ="block";
+}
+function hide5(){
+    var e = document.getElementById("multi-item-example5");
+    var hr = document.getElementById("nhansu");
+    
+        e.style.display = "none";
+        hr.style.display ="block";
+}
+function hide6(){
+    var f = document.getElementById("multi-item-example6");
+    var hr = document.getElementById("nhansu");
+        f.style.display = "none";
+        hr.style.display ="block";
 }
 
 /* thông tin chi tiết */
