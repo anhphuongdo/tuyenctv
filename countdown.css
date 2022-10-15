@@ -41,15 +41,6 @@ span{
     border: none !important;
 }
 @media only screen and (max-width: 992px){
-.countdown{
-    visibility: hidden;
-}
-#countdown{
-    visibility: hidden;
-}
-#countdown .labels li {
-visibility: hidden;
-}
 .submit{
     margin-top: -300px;
 }

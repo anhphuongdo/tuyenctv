@@ -6,7 +6,7 @@
     border-radius: 4px;
     padding: 5rem;
     overflow: hidden;
-    margin-top: 50px !important;
+    margin-top: 80px !important;
     padding-top: 50px !important;
 }
 .timeline-in4{
@@ -50,7 +50,6 @@ small{
 }
 .timeline-row .timeline-content {
     position: relative;
-    padding: 0px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,10 +59,10 @@ small{
 .timeline-row .timeline-content:after {
     content: "";
     position: absolute;
-    top: 20px;
+    top: 18px;
     height: 16px;
     width: 16px;
-    background: white;
+    background: black
 }
 .timeline-row .timeline-content:before{
     content: "";
