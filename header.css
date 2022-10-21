@@ -110,7 +110,9 @@ nav ul li:hover{
 	.container-fluid{
 		width: 100%;
 	}
-
+	.container-fluid{
+		font-size: 20px !important;
+	}
 }
 .charka{
     font-family: 'Chakra Petch', sans-serif !important;
