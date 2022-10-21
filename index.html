@@ -28,7 +28,7 @@
                         <ul id="menuitems">
                             <li class="nav-item active"><a style="color: white;" href="#trangchu">Trang chủ</a></li>
                             <li class="nav-item active"><a style="color: white;" href="#aboutus">Giới thiệu</a></li>
-                            <li class="nav-item active"><a style="color: white;" href="#recruit">Tuyển CTV</a></li>
+                            <li class="nav-item active"><a style="color: white;" href="#timeline">Tuyển CTV</a></li>
                         </ul>
                     </nav>
                     <div class="action-menu">
@@ -181,7 +181,7 @@
                     </div>
                     <div class="col-12 col-lg-6 part justify-content-center d-flex w-100">
                         <div class="caption-text">Technologies</div>
-                        <img id="part2" src="image/IMG_7829.png" alt="Technologies"/>
+                        <img id="part2" src="image/Thiết kế chưa có tên.jpg" alt="Technologies"/>
                     </div>
                 </div> 
             </section>     
@@ -469,7 +469,7 @@
                                 <span class="material-symbols-outlined" onclick ="showtalent()">arrow_right_alt</span>
                             </a>
                         </div>
-                        <div class="col-12 d-flex">
+                        <div class="col-12 d-flex" id="lbl1">
                             <div class = "col-12 col-sm-12 col-md-12  col-lg-6 col-xl-6 d-flex">
                                 <div class="team">Tech Department</div>
                             </div>
@@ -863,7 +863,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                            <div class = "btnexit" onclick="hide5()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team Tech</p>
                                         </div>
                                         <div class="detail_body">
@@ -886,7 +886,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                                <div class = "btnexit" onclick="hide5()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
                                             </div>
                                             <div class="detail_body">
@@ -907,7 +907,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide5()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                                <div class = "btnexit" onclick="hide5()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team Tech</p>
                                             </div>
                                             <div class="detail_body">
@@ -946,7 +946,7 @@
                                 <div class="row">
                                     <div class="detail1">
                                         <div class="title">
-                                            <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                            <div class = "btnexit" onclick="hide6()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                             <p class="charka vong">Team HR</p>
                                         </div>
                                         <div class="detail_body">
@@ -967,7 +967,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                                <div class = "btnexit" onclick="hide6()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
                                             </div>
                                             <div class="detail_body">
@@ -989,7 +989,7 @@
                                     <div class="col" >
                                         <div class="detail1">
                                             <div class="title">
-                                                <div class = "btnexit" onclick="hide6()"><a href="#arrow"><span class="material-symbols-outlined">cancel</span></a></div>
+                                                <div class = "btnexit" onclick="hide6()"><a href="#lbl1"><span class="material-symbols-outlined">cancel</span></a></div>
                                                 <p class="charka vong">Team HR</p>
                                             </div>
                                             <div class="detail_body">
@@ -1089,6 +1089,7 @@
             </section>
             <!-- countdown -->   
             <section id="timer">
+                <div class="col-12 heading charka">Thời gian còn lại</div>
                 <div id="countdown">
                     <div id='tiles'></div>
                     <div class="labels" >
@@ -1109,7 +1110,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="countdown" src="image/time.png"/>         
+                <img class="countdown" src="image/time.png">         
             </section>
             <a href="https://g0q212wlh21.typeform.com/to/pY9tqAG8"><div class="submit d-flex justify-content-center" title="Ứng tuyển ngay!">Ứng tuyển</div></a>
             <br>
@@ -1171,9 +1172,5 @@
     <!-- Độ cao của 2 thẻ bằng nhau -->
     <script lang="javascript">
         $("#id1").height($("#id0").height());
-
-        function pad(n) {
-            return (n < 10 ? '0' : '') + n;
-        }
     </script>
 </html>

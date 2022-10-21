@@ -41,70 +41,38 @@ var hr = document.getElementById("nhansu");
 function showcreative() {
     var a = document.getElementById("multi-item-example1");
     var hr = document.getElementById("nhansu");
-if (a.style.display == "none") {
     a.style.display = "block";
     hr.style.display = "none";
-
-} else {
-    a.style.display = "none";
-}
 }
 function showcontent(){
 var b = document.getElementById("multi-item-example2");
 var hr = document.getElementById("nhansu");
-    if (b.style.display == "none") {
-        b.style.display = "block";
-        hr.style.display = "none";
-
-    } else {
-        b.style.display = "none";
-    }
+    b.style.display = "block";
+    hr.style.display = "none";
 }
 function showmedia(){
 var c = document.getElementById("multi-item-example3");
 var hr = document.getElementById("nhansu");
-
-    if (c.style.display == "none") {
-        c.style.display = "block";
+    c.style.display = "block";
     hr.style.display = "none";
-
-        
-    } else {
-        c.style.display = "none";
-    }
 }
 function showtalent(){
 var d = document.getElementById("multi-item-example4");
 var hr = document.getElementById("nhansu");
-
-    if (d.style.display === "none") {
-        d.style.display = "block";
-        hr.style.display = "none";
-    } else {
-        d.style.display = "none";
-    }
+    d.style.display = "block";
+    hr.style.display = "none";
 }
 function showtech(){
 var e = document.getElementById("multi-item-example5");
 var hr = document.getElementById("nhansu");
-
-    if (e.style.display === "none") {
-        e.style.display = "block";
-        hr.style.display = "none";
-    } else {
-        e.style.display = "none";
-    }
+    e.style.display = "block";
+    hr.style.display = "none";
 }
 function showhr(){
 var f = document.getElementById("multi-item-example6");
 var hr = document.getElementById("nhansu");
-
-    if (f.style.display === "none") {
-        f.style.display = "block";
+    f.style.display = "block";
     hr.style.display = "none";
-    } else {
-        f.style.display = "none";
-    }
 }
 function hide1(){
 var a = document.getElementById("multi-item-example1");
