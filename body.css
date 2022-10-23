@@ -150,9 +150,12 @@
     margin-right: auto;
     margin-bottom: -200px;
 }
-#part1, #part2{
+#part1{
     width: 70%;
-    float: left;
+    height: 70%;
+}
+#part2{
+    width: 70%;
     height: 70%;
 }
 .caption-text{
@@ -319,6 +322,13 @@
     list-style: none;
     padding-left: 100px !important;
 }
+.slideRC{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 #multi-item-example1{
     display: none;
 }
@@ -454,28 +464,6 @@
     text-decoration: underline;
 }
 @media only screen and (max-width: 992px){
-    #countdown{
-        width: 250px;
-        height: 163px;
-    }
-        #countdown .labels li {
-        width: auto;
-        font: bold 15px 'Droid Sans', Arial, sans-serif;
-        color: #f47321;
-        text-shadow: 1px 1px 0px #000;
-        text-align: center;
-        text-transform: uppercase;
-        display: inline-block;
-    }
-    #countdown .labels{
-        height:50px;
-    }
-    #countdown #tiles > span{
-        width: 29px;
-        max-width: 29px;
-        font: bold 19px 'Droid Sans', Arial, sans-serif;
-        
-    }
     .smt{
         width: auto;
         font-size: auto;
@@ -493,7 +481,7 @@
         z-index: 18;
     }
     .slide #btn{
-        visibility: hidden
+        visibility: hidden;
     }
     .aboutus{
         visibility: hidden;
@@ -506,27 +494,56 @@
     }
     .caption-text1{
         font-size: 10px;
+        margin-top: -5%;
     }
     .caption-text{
         font-size: 10px;
+        margin-top: -10%;
     }
     .signal{
-        margin-top: 25%;
+        margin-top: 50%;
     }
     .part{
-        margin-top: 25%;
+        margin-top: 20%;
+    }
+    .charka{
+        font-size: 30px;
+    }
+    .team{
+        font-size: 30px;
+        border-radius: 0px 20px 0px 20px;
+    }
+    .team1{
+        font-size: 30px;
+        border-radius: 0px 20px 0px 20px;
+    }
+    .outline{
+        width: 90%;
+    }
+    .img2{
+        width: 150%;
+        margin-left: -30%;
+    }
+    .detail1{
+        height: auto;
+    }
+    .chitiet{
+        font-size: 25px !important;
+    }
+    .slideRC{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slideRC #btn{
+        
+    }
+    .vong{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 3%;
     }
     .ftr-image{
-        display: none;
-    }
-    .multiitems{
-        margin: auto;
-        padding: auto;
-    }
-    .multiitems .carousel-control-prev{
-        display: none;
-    }
-    .multiitems .carousel-control-next{
         display: none;
     }
 }
