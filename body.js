@@ -1,4 +1,3 @@
-$("#id1").height($("#id0").height());
 var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
 var days, hours, minutes; // variables for time units
 

@@ -33,7 +33,7 @@ html,body{
 .nav-item{
     padding-left: 59px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
 }
 .nav-item:hover{
     text-decoration: underline;
@@ -70,7 +70,7 @@ html,body{
 	padding: 20px;
 	z-index: 10;
 }
-navbar ul{
+.navbar ul{
 	height: auto;
 	list-style-type: none;
 	display: inline-block;

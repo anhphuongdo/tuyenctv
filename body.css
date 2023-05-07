@@ -1,5 +1,5 @@
 .banner{
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .body-background {
     background-color: rgba(7, 37, 89, 1)
@@ -12,31 +12,33 @@
 }
 
 .body-image  {
-    width: 350px;
-    height: 350px;
+    width: 300px;
     z-index: 1;
     margin-top: 50px;
+    overflow: visible;
 }
+
 .body-subimg{
     position:absolute;
     padding-top: 100px;
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     z-index: -1;
 }
+
 #body-image{
     z-index: 6;
 }
 .body-title {
     text-align: left;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 15px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* tạo đường viền cho chữ */
 }
 .body-subtitle{
     text-align: left;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #txt1, #txt2{
@@ -60,42 +62,43 @@
     margin: auto;
     width: auto;
     height: fit-content;
-    font-size: 20px;
+    font-size: 10px;
 }
 .decor{
     background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
     width: inherit;
-    height: 57px;
+    height: 40px;
     border-radius: 20px 20px 0px 0px;
 }
 .circle1{
     border-radius: 50%;
-    height: 23px;
-    width: 23px;
+    height: 15px;
+    width: 15px;
     background: rgba(255, 128, 128, 1);
     float: left;
     margin: 15px 15px 15px 15px;
 }
 .circle2{
     border-radius: 50%;
-    height: 23px;
-    width: 23px;
+    height: 15px;
+    width: 15px;
     background: rgba(255, 227, 128, 1);
     float: left;
     margin: 15px 15px 15px 0px;
 }
 .circle3{
     border-radius: 50%;
-    height: 23px;
-    width: 23px;
+    height: 15px;
+    width: 15px;
     background: rgba(128, 255, 156, 1);
     float: left;
     margin: 15px 0px 0px 0px;
 }
 .smt-img-top{
-    margin: 10px 0px 0px 40px;
+    margin: 10px 0px 10px 0px;
 }
 .smt-title{
+    font-size: 15px;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -142,41 +145,28 @@
     margin-top: 15px;
     margin-bottom: 70px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .part{
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -200px;
+    margin-bottom: 30px;
+    object-fit: fill;
 }
-#part1{
-    width: 70%;
-    height: 70%;
-}
-#part2{
-    width: 70%;
-    height: 70%;
-}
+
 .caption-text{
     color: #000;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: medium;
     position: absolute;
     text-transform: uppercase;
-    padding-top: 75%;
 }
-.caption-text1{
-    color: #000;
-    font-size: 40px;
-    font-weight: medium;
-    position: absolute;
-    text-transform: uppercase;
-    padding-top: 65%;
-}
+
 /* TDC Signal */
 .signal{
     width: 100%;
+
 }
 /* Tìm kiếm cộng sự */
 .findind{
@@ -196,7 +186,7 @@
     padding-bottom: 1%;
     width: auto;
     height: auto;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: medium;
     background: rgba(255, 227, 128, 1);
     margin-top: 45px;
@@ -213,7 +203,7 @@
     padding-bottom: 1%;
     width: auto;
     height: auto;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: medium;
     background: rgba(255, 227, 128, 1);
     margin-top: 45px;
@@ -234,6 +224,7 @@
     position: absolute;
     width: inherit;
     height: 300px;
+    object-fit: fill;
 }
 .material-symbols-outlined{
     border: none;
@@ -299,12 +290,12 @@
 }
 #icon{
     color: white;
-    font-size: 70px;
+    font-size: 60px;
 }
 .content{
     background: inherit;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .detail1{
@@ -357,7 +348,8 @@
 #dt1{
     border: solid 5px black;
     background-image: url(image/background2.png);
-    border-radius: 40px;
+    object-fit: cover;
+    border-radius: 30px;
     margin: auto;
 }
 #dt2{
@@ -374,25 +366,18 @@
 }
 .btnpop{
     position: absolute;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
 }
 #white{
     color: white !important;
     font-family: 'Montserrat', sans-serif;
 }
-#section1{
-    padding-top: 31%;
-    padding-left: 25%
+
+#timeline{
+    margin-top: 200px !important;
 }
-#section2{
-    padding-top: 51%;
-    padding-left: 60%
-}
-#section3{
-    padding-top: 73%;
-    padding-left: 25%
-}
+
 .btnexit .material-symbols-outlined{
     width: 63px;
     height: 63px;
@@ -404,7 +389,7 @@
     cursor: pointer;
 }
 .vong{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding-top: 1%;
     text-align: center;
@@ -465,45 +450,78 @@
 }
 @media only screen and (max-width: 992px){
     .body-whitespace{
-        height: 50px;
+        height: 10px;
     }
     .body-image{
-        margin-top: 30px;
-        width: 90%;
-        height: 90%;
+        margin-top: 20px;
+        width: 80%;
+        height: 80%;
     }
     .body-subimg{
-        margin-top: 30px;
-        width: 50%;
-        height: 50%;
+        position: absolute;
+        margin-top: 20px;
+        width: 70%;
+        height: 83%;
     }
     .body-title{
-        font-size: 20px;
-    }
-    .body-subtitle{
         font-size: 10px;
     }
+    .body-subtitle{
+        font-size: 5px;
+    }
     #txt1{
-        font-size: 10px !important;
+        font-size: 5px !important;
     }
     #txt2{
-        font-size: 10px !important;
+        font-size: 5px !important;
+    }
+
+    .circle1{
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        background: rgba(255, 128, 128, 1);
+        float: left;
+        margin: 15px 15px 15px 15px;
+    }
+    .circle2{
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        background: rgba(255, 227, 128, 1);
+        float: left;
+        margin: 15px 15px 15px 0px;
+    }
+    .circle3{
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        background: rgba(128, 255, 156, 1);
+        float: left;
+        margin: 15px 0px 0px 0px;
+    }
+    .decor{
+        background-image: linear-gradient(to right,rgba(6, 251, 253, 1),rgba(19, 95, 174, 1));
+        width: inherit;
+        height: 30px;
+        border-radius: 20px 20px 0px 0px;
     }
     .smt{
         width: auto;
+        margin-top: 0px !important;
     }
-    .smt .smt-img-top{
+    .smt-img-top{
         width: 20%;
         height: 20%;
     }
     .smt-title{
-        font-size: 10px !important;
+        font-size: 5px !important;
         text-align: left !important;
         margin: 0px 0px 10px 10px;
     }
     .slide{
         width: auto;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     #img1{
         width: 97%;
@@ -519,64 +537,64 @@
     .aboutus{
         visibility: hidden;
     }
-    .bgfind{
-        left: 0;
-        width: 100%;
-        height: 1770px;
-        display: none;
-    }
-    .caption-text1{
-        font-size: 10px;
-        margin-top: -9%;
-    }
+
     .caption-text{
-        font-size: 10px;
-        margin-top: -13%;
-    }
-    .signal{
-        margin-top: 60%;
+        font-size: 7px;
     }
     .part{
         margin-top: 20%;
     }
-    .charka{
-        font-size: 30px;
+    .outline{
+        width: 100%;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .img2{
+        height: 150px;
+        object-fit: cover;
+        overflow: hidden;
     }
     .team{
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 0px 20px 0px 20px;
     }
     .team1{
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 0px 20px 0px 20px;
-    }
-    .outline{
-        width: 90%;
-    }
-    .img2{
-        width: 150%;
-        margin-left: -30%;
     }
     .detail1{
         height: auto;
     }
     .chitiet{
-        font-size: 25px !important;
+        font-size: 15px !important;
+    }
+    .inside{
+        font-size: 10px;
     }
     .slideRC{
         width: 100%;
         padding-left: 0;
         padding-right: 0;
     }
-    .slideRC #btn{
-        
-    }
     .vong{
-        font-size: 20px;
+        font-size: 10px;
         text-align: left;
-        padding-top: 3%;
+        padding-top: 2%;
     }
     .ftr-image{
         display: none;
+    }
+    .title{
+        height: 30px;
+    }
+    .btnexit .material-symbols-outlined{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 0px 5px 0px 20px;
+        color: black !important;
+        z-index: 100;
     }
 }
