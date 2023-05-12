@@ -5,6 +5,7 @@
 }
 .ftr-background {
     background-color: #000000;
+    align-items: center;
 }
 
 .ftr-image {
@@ -65,4 +66,17 @@
 }
 footer{
     height: fit-content;
+}
+
+@media only screen and (max-width: 992px){
+
+.ftr-name{
+    font-size: 15px;
+}
+.ftr-title{
+    font-size: 15px;
+}
+.icon{
+    font-size: 6px;
+}
 }

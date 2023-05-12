@@ -107,6 +107,7 @@
 .heading{
     text-align: center;
     margin-top: 100px;
+    font-size: 50px;
 }
 .slide{
     width: 73%;
@@ -349,7 +350,7 @@
     border: solid 5px black;
     background-image: url(image/background2.png);
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 40px;
     margin: auto;
 }
 #dt2{
@@ -376,6 +377,11 @@
 
 #timeline{
     margin-top: 200px !important;
+}
+
+.timeline-time .time{
+    font-style: italic;
+    font-size: 15px ;
 }
 
 .btnexit .material-symbols-outlined{
@@ -580,7 +586,7 @@
     }
     .vong{
         font-size: 10px;
-        text-align: left;
+        text-align: center;
         padding-top: 2%;
     }
     .ftr-image{
@@ -597,4 +603,25 @@
         color: black !important;
         z-index: 100;
     }
+    .heading{
+        font-size: 20px;
+    }
+    .team1, .team{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .timeline-time{
+        font-size: 20px !important;
+    }
+    .timeline-time .time{
+        font-style: italic;
+        font-size: 10px ;
+    }
+    .bgfind{
+        height: 1000px;
+    }
+    #timeline{
+        margin-top: 120px !important;
+    }
 }
+
